@@ -7,88 +7,109 @@ header {
     text-align:center;
 }
 
-body#about-me h1 {
-    background-color:LightSeaGreen;
+footer {
+    text-align:center;
     border:1px solid black;
-    padding:1em;
-    letter-spacing: 0.1em;
-    font-size: 2em;
+    margin:3rem 0rem 0rem 0rem ;
+    font-size: 1rem;
+    background-color:#E0E0E0;
+    border-radius: 0.2rem; 
+    clear:both;
 }
 
-body#homepage h1 {
-    background-color:LightSteelBlue;
+h1 {
+    font-family: 'Montserrat', sans-serif;
     border:1px solid black;
-    padding:1em;
-    letter-spacing: 0.1em;
-    font-size: 2em;
+    padding:1rem;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+}
+
+#about-me h1 {
+    background-color:LightSeaGreen;
+}
+
+#homepage h1 {
+    background-color:LightSteelBlue;
 }
 
 h2 {
+    font-family: 'Philosopher', sans-serif;
     text-align:center;
     border-style:inset;
     border:2px solid black;
     margin:5% 10% 5% 10%;
-    letter-spacing: 0.1em;
-    font-size: 1.8em;
-    border-radius: 0.3em; 
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    border-radius: 0.3rem; 
     background-color:#E0E0E0;
 }
 
 h3 {
+    clear:both;
     text-transform: uppercase;
     background-color:LightSteelBlue;
-    padding-left:1em;
+    padding:0rem 0rem 0rem 1rem;
+    margin:5rem 0rem 0rem 0rem;
     letter-spacing: 1px;
-    word-spacing: 0.4em;
-    font-size: 1.2em;
+    word-spacing: 0.4rem;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.2rem;
 }
 
 h4 {
-    font-size: 1.2em;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.2rem;
 }
 
 
-body#about-me article {
-    text-align:center; 
-    width: 60%; 
-    margin:auto; 
+ul {
+    list-style-type: none;
 }
 
-
-p {
-    font-size: 1em;
-    padding:0em 0em 0em 2em
+.project {
+    clear:both;
+    padding:0rem 0rem 10rem 0rem;
+    margin:0rem 0rem 0rem 0rem;
 }
+
+.project-thumbnail {
+    width: 15rem;
+    padding:0rem 0rem 0rem 2rem;
+    float:left;
+}
+
+.project-thumbnail:hover {
+    width: 30rem;
+}
+
+.project-text {
+    width:50%;
+    font-size: 1rem;
+    padding:0rem 0rem 0rem 2rem;
+    float:left;
+    font-family: 'Gentium Book Basic', serif;
+}
+
 
 body#about-me p::first-letter { 
-    font-size: 2em; 
+    font-size: 2rem; 
 }
 
-footer {
-    text-align:center;
-    border:1px solid black;
-    margin:5em 0em 0em 0em ;
-    font-size: 1em;
-    background-color:#E0E0E0;
-    border-radius: 0.2em; 
+p {
+    font-family: 'Gentium Book Basic', serif;
 }
 
-nav a:visited {
+a:visited {
     color:blue;
 }
 
-nav a:hover {
-    color: red;
-    font-size: 2em;
-    /* "2em" is approximately the same as 200%. */
+a:hover {
+    color: LightSeaGreen;
 }
 
-
-img.project-thumbnail {
-    width: 10rem;
-    padding:0em 0em 0em 2em
-}
-
-img.project-thumbnail:hover {
-    width: 20rem;
+body#about-me article {
+    text-align:center; 
+    width: 60%;
+    margin:auto; 
 }
